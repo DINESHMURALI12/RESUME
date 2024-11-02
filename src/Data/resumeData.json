@@ -1,0 +1,66 @@
+{
+  "name": "Sudesh D",
+  "contact": {
+    "email": "sudeshmd1997@gmail.com",
+    "phone": "+919123265859"
+  },
+  "education": [
+    {
+      "degree": "BE in Mechanical",
+      "institution": "coorg institute of technology",
+      "year": "2014-2019"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Software Engineer",
+      "company": "Deus Tech",
+      "client": "Carl Zeiss",
+      "year": "2023-current",
+      "details": "Developing Medical Related web applications using React."
+    }
+  ],
+  "skills": [
+    { "name": "Html", "level": 90 },
+    { "name": "CSS", "level": 90 },
+    { "name": "Sass", "level": 80 },
+    { "name": "Less", "level": 70 },
+    { "name": "JavaScript", "level": 80 },
+    { "name": "React", "level": 85 },
+    { "name": "Github", "level": 90 },
+    { "name": "Bootsrtap", "level": 70 },
+    { "name": "Tailwind", "level": 60 }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Web Development",
+      "description": "Building responsive and efficient web applications."
+    },
+    {
+      "id": 2,
+      "title": "Mobile Development",
+      "description": "Creating user-friendly mobile applications."
+    },
+    {
+      "id": 3,
+      "title": "SEO-Optimization",
+      "description": "Improving website visibility on search engines."
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Design",
+      "description": "Crafting intuitive and engaging user experiences."
+    },
+    {
+      "id": 5,
+      "title": "Content Creation",
+      "description": "Developing high-quality content for websites and blogs."
+    },
+    {
+      "id": 6,
+      "title": "Training",
+      "description": "Training and Development on Front-end Technologies."
+    }
+  ]
+}
