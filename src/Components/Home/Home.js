@@ -13,10 +13,10 @@ const Home = ({ name, experience }) => {
           {experience.map((item, index) => {
             return (
               <div key={index} className="Contents">
-                <p className="Content_para">Position:{item.position}</p>
-                <p className="Content_para">Company:{item.company}</p>
-                <p className="Content_para">Client:{item.client}</p>
+                <p className="Content_para">Degree:{item.position}</p>
+
                 <p className="Content_para">Year:{item.year}</p>
+                <p className="Content_para">Institution:{item.institution}</p>
                 <p className="Content_para">{item.details}</p>
               </div>
             );

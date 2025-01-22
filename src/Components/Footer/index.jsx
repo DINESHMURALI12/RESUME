@@ -11,16 +11,16 @@ const ContactUs = () => {
           to us.
         </p>
         <p className="contact-phone">
-          <strong>Phone:</strong> 📞 <a href="tel:+918123265859">8123265859</a>
+          <strong>Phone:</strong> 📞 <a href="tel:+916369180110">6369180110</a>
         </p>
         <p className="contact-email">
           <strong>Email:</strong> ✉️{" "}
-          <a className="contact-link" href="mailto:sudeshmd1997@gmail.com">
-            sudeshmd1997@gmail.com
+          <a className="contact-link" href="mailto:dineshmurali0712@gmail.com">
+            dineshmurali0712@gmail.com
           </a>
         </p>
         <p className="contact-address">
-          <strong>Address:</strong> 🏠 #952 Ajay Nilyam, Bengaluru, Karnataka,
+          <strong>Address:</strong> 🏠 #35 btm 11th cross, Bengaluru, Karnataka,
         </p>
       </div>
 
@@ -29,17 +29,29 @@ const ContactUs = () => {
         <p className="contact-follow">
           <a
             className="contact-link"
-            href="https://in.linkedin.com/in/sudesh-gowda-md-sudesh-12432a159?trk=public_post_follow-view-profile"
+            href="https://www.linkedin.com/in/dineshmurali12/"
           >
-            LinkedIn
+            LinkedIn 
+          
           </a>
+          
+        </p>
+        <p className="contact-follow">
+          <a
+            className="contact-link"
+            href="https://github.com/DINESHMURALI12"
+          >
+            GitHub
+          
+          </a>
+          
         </p>
       </div>
 
       <div className="contact-block">
-        <h2 className="contact-heading">Business Hours</h2>
-        <p className="business-hours">Mon-Fri: 9 AM - 5 PM</p>
-        <p className="business-hours">Sat-Sun: Closed</p>
+        <h2 className="contact-heading">Learning Hours</h2>
+        <p className="business-hours">Mon-sat: 7 AM - 11 PM</p>
+        <p className="business-hours">Sun: free time</p>
       </div>
     </footer>
   );

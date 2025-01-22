@@ -1,30 +1,27 @@
 {
-  "name": "Sudesh D",
+  "name": "Dinesh ",
   "contact": {
-    "email": "sudeshmd1997@gmail.com",
-    "phone": "+919123265859"
+    "email": "dineshmurali0712@gmail.com",
+    "phone": "+916369180110"
   },
   "education": [
     {
-      "degree": "BE in Mechanical",
-      "institution": "coorg institute of technology",
-      "year": "2014-2019"
+      "degree": "BE in Computer science",
+      
+      "year": "2020-2024"
     }
   ],
   "experience": [
     {
-      "position": "Software Engineer",
-      "company": "Deus Tech",
-      "client": "Carl Zeiss",
-      "year": "2023-current",
-      "details": "Developing Medical Related web applications using React."
+      "position": "BE-Computer Science And Engineering",
+      "year": "2020-2024",
+      "institution": "RMK COLLEGE OF ENGINEERING AND TECHNOLODGY"
     }
   ],
   "skills": [
     { "name": "Html", "level": 90 },
     { "name": "CSS", "level": 90 },
-    { "name": "Sass", "level": 80 },
-    { "name": "Less", "level": 70 },
+    { "name": "java", "level": 80 },
     { "name": "JavaScript", "level": 80 },
     { "name": "React", "level": 85 },
     { "name": "Github", "level": 90 },
@@ -42,25 +39,17 @@
       "title": "Mobile Development",
       "description": "Creating user-friendly mobile applications."
     },
+   
     {
       "id": 3,
-      "title": "SEO-Optimization",
-      "description": "Improving website visibility on search engines."
-    },
-    {
-      "id": 4,
       "title": "UI/UX Design",
       "description": "Crafting intuitive and engaging user experiences."
     },
     {
-      "id": 5,
+      "id": 4,
       "title": "Content Creation",
       "description": "Developing high-quality content for websites and blogs."
-    },
-    {
-      "id": 6,
-      "title": "Training",
-      "description": "Training and Development on Front-end Technologies."
     }
+    
   ]
 }
