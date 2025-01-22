@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import "./index.scss";
 
 const ServiceList = ({ services }) => {
-  const { toggleTheme, isDarkMode } = useContext(ThemeContext);
+  const {  isDarkMode } = useContext(ThemeContext);
   useEffect(() => {
     const timeline = gsap.timeline({ repeat: -1, repeatDelay: 1 });
 
