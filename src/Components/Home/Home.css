@@ -1,37 +1,28 @@
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* Change from column to row */
   align-items: center;
-  padding: 20px;
+  justify-content: space-between; /* Add space between the items */
+  padding: 40px;
   background-color: #f4f4f4;
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.container,.left-side,.right-side {
-  align-items: center;
-  display: flex;
-  height: auto
-}
-.left-side,.right-side {
-  gap: 10px;
-  justify-content: center;
-  width: 500px
-}
 .background-photo {
-  
-  background: url(./WhatsApp\ Image\ 2025-01-11\ at\ 18.36.05_eb1a7c5a.jpg);
-  background-position: center; /* Ensures the image is centered */
-  background-repeat: no-repeat;
-  background-size: contain;
+  width: 40%;
   height: 300px;
-  width: 100%;
-  border-radius: 50px;
-  margin-bottom: 20px;
-  transform: rotate(0deg);
+  background-image: url("./WhatsApp\ Image\ 2025-01-11\ at\ 18.36.05_eb1a7c5a.jpg"); /* Add your background image */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-right: 20px; /* Adjust margin to add space between the image and content */
+  margin: 50px 0;
 }
 
 .text-content {
+  flex: 1; /* Allow text content to take remaining space */
   text-align: center;
 }
 
@@ -54,7 +45,7 @@
   border-radius: 8px;
   padding: 15px;
   margin: 10px 0;
-  width: 90%;
+  width: 50%;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -90,5 +81,3 @@
   background-color: #121212;
   color: white;
 }
-
-
